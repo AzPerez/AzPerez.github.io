@@ -1,0 +1,52 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Estilos del contenido principal */
+main {
+  max-width: 800px;
+  margin: auto; 
+}
+
+main section {
+   padding: 20px; 
+}
+
+/* Estilos del pie de página */
+footer {
+   background-color:#333; 
+   color:white; 
+   text-align:center; 
+   padding:10px; 
+}
