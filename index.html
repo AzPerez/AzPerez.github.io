@@ -1,57 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi perfil de GitHub</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi perfil de GitHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 <body>
-  <header>
-    <h1>Mi perfil de GitHub</h1>
-    <nav>
-      <ul>
-        <li><a href="#bio">Biografía</a></li>
-        <li><a href="#repos">Repositorios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <section id="bio">
-    <h2>Biografía</h2>
-    <p>Aquí puedes poner una breve descripción sobre ti y tus habilidades.</p>
-    <ul>
-      <li><strong>Nombre:</strong> Tu nombre</li>
-      <li><strong>Ubicación:</strong> Ciudad, Estado</li>
-      <li><strong>Intereses:</strong> Tecnología, Programación, etc.</li>
-    </ul>
-  </section>
-  
-  <section id="repos">
-    <h2>Repositorios de GitHub</h2>
-    <ul id="repo-list"></ul>
-  </section>
-  
-  <section id="contact">
-    <h2>Contacto</h2>
-    <form id="contact-form">
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-  
-  <footer>
-    <p>© 2023 - Todos los derechos reservados.</p>
-  </footer>
-  
-  <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biografía</a></li>
+                <li><a href="#repos">Repositorios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Mi perfil de GitHub</h1>
+            <a href="#" class="cta">Mi GitHub <i class="fas fa-chevron-right"></i></a>
+        </section>
+        <section id="bio">
+            <h2>Biografía</h2>
+            <p>Aquí puedes poner una breve descripción sobre ti y tus habilidades.</p>
+            <ul>
+                <li><strong>Nombre:</strong> Tu nombre</li>
+                <li><strong>Ubicación:</strong> Ciudad, Estado</li>
+                <li><strong>Intereses:</strong> Tecnología, Programación, etc.</li>
+            </ul>
+        </section>
+        <section id="repos">
+            <h2>Repositorios de GitHub</h2>
+            <ul id="repo-list"></ul>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 - Todos los derechos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
