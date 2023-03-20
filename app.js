@@ -57,7 +57,7 @@ async function renderUserRepos(username) {
       repoElement.classList.add("repo");
       repoElement.innerHTML = `
                 <h3>${name}</h3>
-                <p>${description}</p>
+                <p>${description ? description : ""}</p>
                 <a href="${html_url}" target="_blank">View<i class="fas fa-external-link-alt"></i></a>
                 <span><i class="far fa-star"></i> ${stargazers_count}</span>
             `;
